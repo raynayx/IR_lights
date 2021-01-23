@@ -1,0 +1,28 @@
+/* 
+KEY DEFINITION OF CAR MP3 KEYPAD
+
+*/
+
+#define ZERO 0xFF6897
+#define ONE 0xFF30CF
+#define TWO 0xFF18E7
+#define THREE 0xFF7A85
+#define FOUR 0xFF10EF
+#define FIVE 0xFF38C7 
+#define SIX 0xFF5AA5 
+#define SEVEN 0xFF42BD 
+#define EIGHT 0xFF4AB5 
+#define NINE 0xFF52AD 
+
+
+#define CH- 0xFFA25D
+#define CH 0xFF629D
+#define CH+ 0xFFE21D
+#define PREV 0xFF22DD
+#define NEXT 0xFF02FD
+#define PLAY_PAUSE 0xFFC23D 
+#define VOL_DOWN 0xFFE01F
+#define VOL_UP 0xFFA857
+#define EQ 0xFF906F
+#define ONE_HUNDRED 0xFF9867
+#define TWO_HUNDRED 0xFFB04F
