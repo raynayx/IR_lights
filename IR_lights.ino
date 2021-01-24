@@ -1,7 +1,7 @@
 /*
  * TODO  
  * - USE PWM TO INNCREASE OR DECREASE BRIGHTNESS
- *
+ * - WRITE LIGHT SEQUENCES
  * 
  * 
  * 
@@ -43,14 +43,13 @@ void setup() {
 void loop() {
   if (IR.decode())
   {
+#ifdef DEBUG
         IR.printResultShort(&Serial);
         Serial.println();
-        res = IR.results.value;
-        
-#ifdef DEBUG
         Serial.print("my res: ");
         Serial.println(res,HEX);
 #endif
+       res = IR.results.value; 
         switch(res)
         {
           case ZERO:
